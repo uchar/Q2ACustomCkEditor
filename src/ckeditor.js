@@ -101,5 +101,8 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: {
+		ui: 'fa',
+		content: 'fa'
+	}
 };
